@@ -1,0 +1,59 @@
+{
+  "item.worldshaper.handheld_worldshaper": "Creative Worldshaper",
+  "itemGroup.worldshaper": "Creative Worldshaper",
+  "item.worldshaper.handheld_worldshaper.tooltip.summary": "_Creative mode_ tool for large-scale _landscaping_ from a distance.",
+  "item.worldshaper.handheld_worldshaper.tooltip.condition1": "L-Click at Block",
+  "item.worldshaper.handheld_worldshaper.tooltip.behaviour1": "_Targeted block_ will become the _material_ placed by the shaper.",
+  "item.worldshaper.handheld_worldshaper.tooltip.condition2": "R-Click at Block",
+  "item.worldshaper.handheld_worldshaper.tooltip.behaviour2": "Applies currently selected _Brush_ and _Tool_ at the targeted location.",
+  "item.worldshaper.handheld_worldshaper.tooltip.condition3": "R-Click while Sneaking",
+  "item.worldshaper.handheld_worldshaper.tooltip.behaviour3": "Opens the _Configuration Interface_",
+
+  "worldshaper.usingBlock": "Using: %1$s",
+
+  "worldshaper.shiftRightClickToSet": "Shift-Right-Click to Select a Shape",
+  "worldshaper.leftClickToSet": "Left-Click a Block to set Material",
+
+  "worldshaper.subtitle.worldshaper_place": "Worldshaper zaps",
+
+  "worldshaper.gui.brush": "Brush",
+  "worldshaper.gui.brush.cuboid": "Cuboid",
+  "worldshaper.gui.brush.sphere": "Sphere",
+  "worldshaper.gui.brush.cylinder": "Cylinder",
+  "worldshaper.gui.brush.surface": "Surface",
+  "worldshaper.gui.brush.cluster": "Cluster",
+
+  "worldshaper.gui.tool": "Tool",
+  "worldshaper.gui.tool.fill": "Fill",
+  "worldshaper.gui.tool.place": "Place",
+  "worldshaper.gui.tool.replace": "Replace",
+  "worldshaper.gui.tool.clear": "Clear",
+  "worldshaper.gui.tool.overlay": "Overlay",
+  "worldshaper.gui.tool.flatten": "Flatten",
+
+  "worldshaper.gui.placement": "Placement",
+  "worldshaper.gui.placement.merged": "Merged",
+  "worldshaper.gui.placement.attached": "Attached",
+  "worldshaper.gui.placement.inserted": "Inserted",
+
+  "worldshaper.gui.patternSection": "Pattern",
+  "worldshaper.gui.pattern.solid": "Solid",
+  "worldshaper.gui.pattern.checkered": "Checkerboard",
+  "worldshaper.gui.pattern.inversecheckered": "Inverted Checkerboard",
+  "worldshaper.gui.pattern.chance25": "25% Roll",
+  "worldshaper.gui.pattern.chance50": "50% Roll",
+  "worldshaper.gui.pattern.chance75": "75% Roll",
+
+  "worldshaper.gui.searchDiagonal": "Follow Diagonals",
+  "worldshaper.gui.searchFuzzy": "Ignore Material Borders",
+  "worldshaper.gui.title": "Handheld Blockzapper",
+
+  "worldshaper.gui.undo": "Undo",
+  "worldshaper.gui.redo": "Redo",
+
+  "generic.radius": "Radius",
+  "generic.range": "Range",
+  "generic.width": "Width",
+  "generic.height": "Height",
+  "generic.length": "Length"
+}

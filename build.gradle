@@ -1,0 +1,58 @@
+plugins {
+    id("java")
+    id("idea")
+    id("maven-publish")
+    id("net.neoforged.moddev") version "2.0.141"
+}
+
+group = "com.worldshaper"
+version = mod_version
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = neo_version
+
+    if (parchment_version != "none") {
+        parchment {
+            minecraftVersion = parchment_minecraft_version == "same" ? minecraft_version : parchment_minecraft_version
+            mappingsVersion = parchment_version
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+
+    runs {
+        configureEach {
+            systemProperty("forge.logging.markers", "REGISTRIES")
+            jvmArgument("-XX:+IgnoreUnrecognizedVMOptions")
+            jvmArgument("-XX:+AllowEnhancedClassRedefinition")
+            systemProperty("neoforge.enabledGameTestNamespaces", mod_id as String)
+        }
+        client { client() }
+        server {
+            server()
+            programArgument("--nogui")
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir "src/generated/resources" }
+
+tasks.named("processResources", ProcessResources).configure {
+    var replaceProperties = [
+        version: mod_version,
+    ]
+    inputs.properties replaceProperties
+    filesMatching("META-INF/neoforge.mods.toml") {
+        expand replaceProperties
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "UTF-8"
+}

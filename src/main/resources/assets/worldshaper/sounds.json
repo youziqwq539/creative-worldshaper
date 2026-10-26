@@ -1,0 +1,18 @@
+{
+  "worldshaper_place": {
+    "subtitle": "worldshaper.subtitle.worldshaper_place",
+    "sounds": [
+      "minecraft:block.note_block.basedrum"
+    ]
+  },
+  "deny": {
+    "sounds": [
+      "minecraft:block.note_block.bass"
+    ]
+  },
+  "confirm": {
+    "sounds": [
+      "minecraft:block.note_block.bell"
+    ]
+  }
+}

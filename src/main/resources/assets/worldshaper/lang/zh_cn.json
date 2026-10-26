@@ -1,0 +1,58 @@
+{
+  "item.worldshaper.handheld_worldshaper": "创造模式世界塑形器",
+  "itemGroup.worldshaper": "创造模式世界塑形器",
+  "item.worldshaper.handheld_worldshaper.tooltip.summary": "_创造模式_下进行远距离大面积_地形塑造_的工具。",
+  "item.worldshaper.handheld_worldshaper.tooltip.condition1": "左击方块时",
+  "item.worldshaper.handheld_worldshaper.tooltip.behaviour1": "_准星指向的方块_将成为塑形器放置的_材料_。",
+  "item.worldshaper.handheld_worldshaper.tooltip.condition2": "右击方块时",
+  "item.worldshaper.handheld_worldshaper.tooltip.behaviour2": "_放置_或_替换_目标方块",
+  "item.worldshaper.handheld_worldshaper.tooltip.condition3": "潜行右击时",
+  "item.worldshaper.handheld_worldshaper.tooltip.behaviour3": "打开工具的_配置界面_",
+
+  "worldshaper.usingBlock": "使用：%1$s",
+
+  "worldshaper.shiftRightClickToSet": "按住 Shift 右击以设置塑形类型",
+  "worldshaper.leftClickToSet": "鼠标左击一个方块以设置填充材料",
+
+  "worldshaper.subtitle.worldshaper_place": "环境塑形器：放置方块",
+
+  "worldshaper.gui.brush": "塑形类型",
+  "worldshaper.gui.brush.cuboid": "矩形体",
+  "worldshaper.gui.brush.sphere": "球体",
+  "worldshaper.gui.brush.cylinder": "圆柱体",
+  "worldshaper.gui.brush.surface": "表面",
+  "worldshaper.gui.brush.cluster": "簇状",
+
+  "worldshaper.gui.tool": "填充类型",
+  "worldshaper.gui.tool.fill": "填充",
+  "worldshaper.gui.tool.place": "放置",
+  "worldshaper.gui.tool.replace": "替换",
+  "worldshaper.gui.tool.clear": "清除",
+  "worldshaper.gui.tool.overlay": "覆盖",
+  "worldshaper.gui.tool.flatten": "平整",
+
+  "worldshaper.gui.placement": "放置模式",
+  "worldshaper.gui.placement.merged": "结合",
+  "worldshaper.gui.placement.attached": "依附",
+  "worldshaper.gui.placement.inserted": "插入",
+  
+  "worldshaper.gui.pattern.solid": "填满",
+  "worldshaper.gui.pattern.checkered": "棋盘格",
+  "worldshaper.gui.pattern.inversecheckered": "反转棋盘格",
+  "worldshaper.gui.pattern.chance25": "随机填充 25%",
+  "worldshaper.gui.pattern.chance50": "随机填充 50%",
+  "worldshaper.gui.pattern.chance75": "随机填充 75%",
+
+  "worldshaper.gui.searchDiagonal": "对角线延伸",
+  "worldshaper.gui.searchFuzzy": "忽略材料分界",
+  "worldshaper.gui.title": "手持式环境塑形器",
+
+  "worldshaper.gui.undo": "撤销",
+  "worldshaper.gui.redo": "重做",
+
+  "generic.radius": "半径",
+  "generic.range": "范围",
+  "generic.width": "宽度",
+  "generic.height": "高度",
+  "generic.length": "长度"
+}
